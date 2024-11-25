@@ -1,0 +1,200 @@
+.Dashboard {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.sensor-info {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.sensor-item {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 150px;
+  text-align: center;
+}
+
+.current-threshold {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.threshold {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input[type="number"] {
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 80%;
+  font-size: 1rem;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: white;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.mode-toggle {
+  padding: 12px 24px;
+  font-size: 1.1rem;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.mode-toggle:hover {
+  background-color: #2980b9;
+}
+
+.fan-status p {
+  font-size: 1.2rem;
+}
+
+.fan-status button {
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  background-color: #e74c3c;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.fan-status button:hover {
+  background-color: #c0392b;
+}
+.history-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+/* .history-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: white;
+  background-color: #f39c12;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.history-button:hover {
+  background-color: #e67e22;
+} */
+/* Căn chỉnh chung */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 16px;
+  text-align: left;
+}
+
+table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+}
+
+table th, table td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+}
+
+table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+/* Tiêu đề bảng */
+.history h3,
+.settings-history h3 {
+  margin: 10px 0;
+  color: #333;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+}
+
+/* Nút */
+.history-button {
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.history-button:hover {
+  background-color: #0056b3;
+}
+

@@ -1,0 +1,90 @@
+/* Định dạng chung cho container của form đăng ký */
+.register-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .register-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Định dạng cho các trường input */
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    box-sizing: border-box;
+  }
+  
+  .form-group input:focus {
+    outline: none;
+    border-color: #5b9bd5;
+    box-shadow: 0 0 5px rgba(91, 155, 213, 0.5);
+  }
+  
+  /* Định dạng cho nút đăng ký */
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #5b9bd5;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #4a8ac7;
+  }
+  
+  /* Định dạng cho thông báo lỗi */
+  .error-message {
+    color: #e74c3c;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  /* Định dạng cho liên kết chuyển đến trang đăng nhập */
+  .register-link {
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  .register-link p {
+    font-size: 14px;
+  }
+  
+  .register-link .register-button {
+    color: #5b9bd5;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .register-link .register-button:hover {
+    text-decoration: underline;
+  }
+  
